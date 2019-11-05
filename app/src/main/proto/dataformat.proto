@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+//option java_package = "www.dcf.com.vo";
+package tutorial;
+//option java_outer_classname = "ReturnVOProto";
+
+message ReturnVO {
+
+    string code = 1;
+    string message = 2;
+    string data = 3;
+
+
+}
