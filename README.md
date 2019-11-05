@@ -83,3 +83,18 @@ apply plugin: 'com.google.protobuf'
 -----------------完成--------------------------
 
 build之后，就会根据proto文件生成一个.java文件类，然后就可以进行二进制转换了。
+
+```
+        byte[] bol = getBytefromBase64(base64);
+
+
+        try {
+            //通过byte[]获取到json字符串
+            Dataformat.ReturnVO returnVO = Dataformat.ReturnVO.parseFrom(bol);
+            Log.i("data==", returnVO.getData());
+
+
+        } catch (InvalidProtocolBufferException e) {
+            e.printStackTrace();
+        }
+```
