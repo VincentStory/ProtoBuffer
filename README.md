@@ -14,13 +14,13 @@ protoBuffer相比于xml的优点
 
 ## 集成ProtoBuffer流程：
 
-1.引入类库
+### 1.引入类库
 ```
 dependencies {
     implementation 'com.google.protobuf:protobuf-lite:3.0.1'
 }
 ```
-2.在app build文件下配置protobuf相关信息
+### 2.在app build文件下配置protobuf相关信息
 ```
 
 protobuf {
@@ -47,7 +47,7 @@ protobuf {
 
 
 ```
-3.指定Proto文件位置
+### 3.指定Proto文件位置
 ```
 
     sourceSets {
@@ -62,13 +62,13 @@ protobuf {
     }
 
 ```
-4.apply
+### 4.apply
 ```
 apply plugin: 'com.google.protobuf'
 
 ```
 
-5.在project build文件下配置
+### 5.在project build文件下配置
 ```
  dependencies {
      
@@ -76,9 +76,9 @@ apply plugin: 'com.google.protobuf'
      
     }
 ```
-6.在项目main目录下新建proto文件夹
-7.将proto文件放入proto文件夹
-8.build项目
+### 6.在项目main目录下新建proto文件夹
+### 7.将proto文件放入proto文件夹
+### 8.build项目
 
 
 
