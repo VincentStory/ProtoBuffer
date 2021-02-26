@@ -1,7 +1,7 @@
 # ProtoBuffer
 Android 支持protobuffer格式文件处理 
 
-protobuffer是google开发的一种数据描述语言，它能够将结构化的数据序列化，并切可以将序列化的数据进行反序列化恢复原有的数据结构。一般用于数据存储以及通信协议方面。
+### protobuffer是google开发的一种数据描述语言，它能够将结构化的数据序列化，并切可以将序列化的数据进行反序列化恢复原有的数据结构。一般用于数据存储以及通信协议方面。
 
 protoBuffer相比于xml的优点
 更加简介
